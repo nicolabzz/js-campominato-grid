@@ -3,3 +3,117 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: lightskyblue;
+}
+
+
+
+/* header --------- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    background-color: white;
+    padding: 0 1.1rem;
+}
+
+h1 {
+    color: black;
+    font-family: 'Black Ops One', cursive;
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 5rem;
+    padding: .7rem;
+    gap: 3rem;
+}
+
+img {
+    height: 100%;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+
+
+/* grid section ---------- */
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3rem auto;
+    width: 1000px;
+    height: 1000px;
+}
+
+.box {
+    border: 2px solid greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Yuji Boku', serif;
+    height: calc(100% / 10);
+    width: calc(100% / 10);
+}
+
+.box9 {
+    border: 2px solid greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Yuji Boku', serif;
+    height: calc(100% / 9);
+    width: calc(100% / 9);
+}
+
+.box7 {
+    border: 2px solid greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Yuji Boku', serif;
+    height: calc(100% / 7);
+    width: calc(100% / 7);
+}
+
+.box.active {
+	background-color: cyan;
+}
+
+
+
+/* Footer section ---------- */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+    background-color: white;
+    padding: 0 1.1rem;
+}
+
+a, p{
+    font-weight: bold;
+    color: black;
+    font-family: 'Yuji Boku', serif;
+}
